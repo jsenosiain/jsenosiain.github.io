@@ -40,7 +40,12 @@
                 });
 
                 navigator.geolocation.watchPosition(position => {
+                    alert('coords' + position.coords.longitude + ', ' + position.coords.latitude);
                     marker.setLngLat([position.coords.longitude, position.coords.latitude])
+                },
+                error => {},
+                {
+                    enableHighAccuracy: true
                 });
             });
             
