@@ -32,6 +32,8 @@
                         el.style.width = '24px';
                         el.style.height = '24px';
                         
+                        map.setCenter([position.coords.longitude, position.coords.latitude]);
+                        
                         marker = new mapboxgl.Marker(el);
                         popup = new mapboxgl.Popup({
                             closeButton: false
@@ -41,7 +43,8 @@
                         marker
                             .setLngLat([position.coords.longitude, position.coords.latitude])
                             .setPopup(popup)
-                            .addTo(map);
+                            .addTo(map)
+                            .togglePopup();
                 });
 
                 navigator.geolocation.watchPosition(position => {
