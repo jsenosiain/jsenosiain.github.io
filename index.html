@@ -23,7 +23,7 @@
             };
 
             var map = new mapboxgl.Map(options);            
-            var marker;
+            var marker, popup;
 
             map.on('load', () => {
                 navigator.geolocation.getCurrentPosition(position => {
@@ -33,15 +33,25 @@
                         el.style.height = '24px';
                         
                         marker = new mapboxgl.Marker(el);
+                        popup = new mapboxgl.Popup({
+                            closeButton: false
+                        })
+                        .setHTML(`Lat: ${position.coords.latitude}, Lng: ${position.coords.longitude}`);
 
                         marker
                             .setLngLat([position.coords.longitude, position.coords.latitude])
+                            .setPopup(popup)
                             .addTo(map);
                 });
 
                 navigator.geolocation.watchPosition(position => {
-                    //alert('coords' + position.coords.longitude + ', ' + position.coords.latitude);
-                    marker.setLngLat([position.coords.longitude, position.coords.latitude])
+                    marker
+                        .setLngLat([position.coords.longitude, position.coords.latitude]);
+
+                    popup
+                        .setLngLat([position.coords.longitude, position.coords.latitude])
+                        .setHTML(`Lat: ${position.coords.latitude}, Lng: ${position.coords.longitude}`);
+
                 },
                 error => {},
                 {
