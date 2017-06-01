@@ -19,7 +19,7 @@
                 container: 'map',
                 style: 'mapbox://styles/mapbox/light-v9',
                 center: [-116.9941444, 32.6682625],
-                zoom: 19
+                zoom: 20
             };
 
             var map = new mapboxgl.Map(options);            
@@ -40,7 +40,7 @@
                 });
 
                 navigator.geolocation.watchPosition(position => {
-                    alert('coords' + position.coords.longitude + ', ' + position.coords.latitude);
+                    //alert('coords' + position.coords.longitude + ', ' + position.coords.latitude);
                     marker.setLngLat([position.coords.longitude, position.coords.latitude])
                 },
                 error => {},
