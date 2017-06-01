@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=650, user-scalable=yes">
+
+        <script src='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js'></script>
+
+        <link href='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css' rel='stylesheet' />
+        <link href='style.css' rel='stylesheet' />
+    </head>
+    <body>
+        <div id='map' style='width: 645px; height: 645px;'></div>
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1Ijoiam9hY28xODIiLCJhIjoiY2ozZXM1czd6MDBvcjJxcWwzOGJ2YWd1eCJ9.qiyNenOg-m3Ike7KoTuTNg';
+            
+            var options = {
+                container: 'map',
+                style: 'mapbox://styles/mapbox/light-v9',
+                center: [-116.9941444, 32.6682625],
+                zoom: 19
+            };
+
+            var map = new mapboxgl.Map(options);            
+            var marker;
+
+            map.on('load', () => {
+                navigator.geolocation.getCurrentPosition(position => {
+                    var el = document.createElement('div');
+                        el.className = 'marker';
+                        el.style.width = '24px';
+                        el.style.height = '24px';
+                        
+                        marker = new mapboxgl.Marker(el);
+
+                        marker
+                            .setLngLat([position.coords.longitude, position.coords.latitude])
+                            .addTo(map);
+                });
+
+                navigator.geolocation.watchPosition(position => {
+                    marker.setLngLat([position.coords.longitude, position.coords.latitude])
+                });
+            });
+            
+            // on geolocation change, update firebase
+
+            // on firebase update notification, update display
+        </script>
+    </body>
+</html>
