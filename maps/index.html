@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=650, user-scalable=yes">
 
         <script src='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js'></script>
-
+        <script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
+        
         <link href='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css' rel='stylesheet' />
         <link href='style.css' rel='stylesheet' />
     </head>
@@ -17,7 +18,7 @@
             
             var options = {
                 container: 'map',
-                style: 'mapbox://styles/mapbox/light-v9',
+                style: 'mapbox://styles/mapbox/satellite-streets-v9',
                 center: [-116.9941444, 32.6682625],
                 zoom: 20
             };
@@ -62,9 +63,22 @@
                 });
             });
             
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyA1Rga3Zat2jhREg6yx5DG9iNEOtC1L77c",
+                authDomain: "where-are-we-8ef31.firebaseapp.com",
+                databaseURL: "https://where-are-we-8ef31.firebaseio.com",
+                projectId: "where-are-we-8ef31",
+                storageBucket: "where-are-we-8ef31.appspot.com",
+                messagingSenderId: "749631421590"
+            };
+            
+            var firebase = firebase.initializeApp(config);
+
             // on geolocation change, update firebase
 
             // on firebase update notification, update display
         </script>
+        
     </body>
 </html>

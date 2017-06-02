@@ -1,0 +1,128 @@
+{
+  "basics": {
+    "name": "Joaquin Senosiain",
+    "label": "Senior Front End Engineer",
+    "picture": "",
+    "email": "joaco182@yahoo.com",
+    "phone": "(619) 395-7577",
+    "website": "http://jsenosiain.github.io",
+    "summary": "",
+    "location": {
+      "address": "173 Avenida Altamira",
+      "postalCode": "CA 91914",
+      "city": "Chula Vista",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "joaquinsenosiain",
+        "url": "https://www.linkedin.com/in/joaquinsenosiain/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Awarepoint, Inc",
+      "position": "Senior UI Developer",
+      "website": "http://awarepoint.com",
+      "startDate": "2014-02",
+      "endDate": "",
+      "summary": "Awarepoint’s next-generation real-time location system (RTLS) delivers contextual awareness and operational intelligence to the Internet of Things (IoT) to increase efficiency, improve quality management, and reduce cost.",
+      "highlights": [
+        "Assist with design, implementation and maintenance of custom user interface to support hardware asset tracking system.",
+        "Responsibilities include updating and re-factoring custom content framework and extending functionality to consume new API resources as they become available by the back end team.",
+        "Created and maintain management system for asset real time location tracking and environmental sensor data used in several hospital environments."
+      ]
+    },
+    {
+      "company": "Sony Electronics",
+      "position": "Senior Web Developer",
+      "website": "http://sony.com",
+      "startDate": "2013-07",
+      "endDate": "2014-02",
+      "summary": "",
+      "highlights": [
+        "animation performance using 3D transforms in order to leverage GPU and high sprite counts. ",
+        "cross device touch library for mobile devices. Used Node.js and backbone for prototyping.",
+        "single build, multiple deploy based projects using phone gap and other libraries created in house."
+      ]
+    },
+    {
+      "company": "Empowered Careers",
+      "position": "Senior Software Developer",
+      "website": "",
+      "startDate": "2012-07",
+      "endDate": "2013-06",
+      "summary": "Software developer for educational software aimed at Individuals looking to advance and/or retool themselves in today job market. I designed, refactored and updated our existing Customer Portal software used to enroll, capture payment, and manage student accounts during the course of their enrollment.",
+      "highlights": [
+        "Aided in the development of the ESC REST application for data retrieval from a MongoDB instance.",
+        "Technologies used were PHP and javascript with jQuery."
+      ]
+    },
+    {
+      "company": "Sony Online Entertainment",
+      "position": "Senior Web Developer",
+      "website": "",
+      "startDate": "2010-12",
+      "endDate": "2012-07",
+      "summary": "Designed, refactored and updated existing Customer Support software used to manage user accounts and in game functionality. Project was designed using Backbone and jQuery and relied heavily on REST API calls for data manipulation provided by back end engineers.",
+      "highlights": [
+        "Maintained and updated content, both html and Javascript, for front facing game sites.",
+        "Provided research and solution to upcoming Marketplace redesign, including technologies to use, modular design, and environment setup while maintaining current php marketplaces"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Hour of Code",
+      "position": "Volunteer",
+      "website": "https://hourofcode.com/us",
+      "startDate": "2016",
+      "endDate": "present",
+      "summary": "An hour of code for every student.",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "San Diego State University",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "1998",      
+      "endDate": "2001"      
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript / ES6"
+      ]
+    },
+    {
+      "name": "Frameworks / Libraries",
+      "level": "Master",
+      "keywords": [
+        "AngularJS",
+        "Leaflet"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Second language"
+    }
+  ]
+}
