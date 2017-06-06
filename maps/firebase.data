@@ -1,8 +1,0 @@
-{
-    apiKey: "AIzaSyA1Rga3Zat2jhREg6yx5DG9iNEOtC1L77c",
-    authDomain: "where-are-we-8ef31.firebaseapp.com",
-    databaseURL: "https://where-are-we-8ef31.firebaseio.com",
-    projectId: "where-are-we-8ef31",
-    storageBucket: "where-are-we-8ef31.appspot.com",
-    messagingSenderId: "749631421590"
-};
