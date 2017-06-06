@@ -8,16 +8,22 @@ var initMap = () => {
     center: pos
   });
 
-  navigator.geolocation.watchPosition(position => {
-    console.log('position', position);
-    
+  var marker = new google.maps.Marker();
+
+  navigator.geolocation.getCurrentPosition(position => {
     map.setCenter({ lat: position.coords.latitude, lng: position.coords.longitude });
     map.setZoom(18);
 
-    var marker = new google.maps.Marker({
-      position: { lat: position.coords.latitude, lng: position.coords.longitude }
-    });
+    marker.setPosition({ lat: position.coords.latitude, lng: position.coords.longitude });
     marker.setMap(map);
+  }, error => {
+    console.log('error', error);
+  }, {
+    enableHighAccuracy: true
+  });
+
+  navigator.geolocation.watchPosition(position => {
+    marker.setPosition({ lat: position.coords.latitude, lng: position.coords.longitude });
   }, error => {
     console.log('error', error);
   }, {
