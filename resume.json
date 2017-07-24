@@ -33,10 +33,9 @@
       "highlights": [
         "Assist with design, implementation and maintenance of custom user interface to support hardware asset tracking system.",
         "Responsibilities include updating and re-factoring custom content framework and extending functionality to consume new API resources as they become available by the back end team.",
-        "Created and maintain management system for asset real time location tracking and environmental sensor data used in several hospital environments.",
-        "Technology: Angular, Jasmine, Karma, Grunt, Bower, npm",
-        ""
-      ]
+        "Created and maintain management system for asset real time location tracking and environmental sensor data used in several hospital environments."
+      ],
+      "technologies": "Angular, Jasmine, Karma, Grunt, Bower, npm"
     },
     {
       "company": "Sony Electronics",
