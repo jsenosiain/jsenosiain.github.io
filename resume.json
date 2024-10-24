@@ -1,18 +1,16 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Joaquin Senosiain",
-    "label": "Senior Front End Engineer",
-    "picture": "",
+    "name": "Joaquin Senosiain, Jr",
+    "label": "Frontend Software Engineering Manager and Architect at ICON",
+    "image": "",
     "email": "joaco182@yahoo.com",
     "phone": "",
-    "website": "http://jsenosiain.github.io",
-    "summary": "",
+    "url": "",
+    "summary": "Application Developer, Database Administrator, and Project Manager in a wide variety of business applications.\n\nhttps://jsenosiain.github.io/",
     "location": {
-      "address": "173 Avenida Altamira",
-      "postalCode": "CA 91914",
-      "city": "Chula Vista",
       "countryCode": "US",
-      "region": "California"
+      "address": "United States"
     },
     "profiles": [
       {
@@ -24,112 +22,420 @@
   },
   "work": [
     {
-      "company": "Awarepoint, Inc",
-      "position": "Senior UI Developer",
-      "website": "http://awarepoint.com",
-      "startDate": "2014-02",
+      "name": "ICON plc",
+      "position": "Frontend Software Engineering Manager and Architect",
+      "startDate": "2019-07-31",
       "endDate": "",
-      "summary": "Awarepoint’s next-generation real-time location system (RTLS) delivers contextual awareness and operational intelligence to the Internet of Things (IoT) to increase efficiency, improve quality management, and reduce cost.",
-      "highlights": [
-        "Assist with design, implementation and maintenance of custom user interface to support hardware asset tracking system.",
-        "Responsibilities include updating and re-factoring custom content framework and extending functionality to consume new API resources as they become available by the back end team.",
-        "Created and maintain management system for asset real time location tracking and environmental sensor data used in several hospital environments."
-      ],
-      "technologies": "Angular, Jasmine, Karma, Grunt, Bower, npm"
+      "highlights": [],
+      "summary": "Currently involved in bringing online technology to the clinical trial space to facilitate larger and more expansive experiences.\n\nResponsibilities include:\n1. Architecting and developing custom components for the Angular 8+ framework.\n2. Leading a team in development of new and innovating products and projects, including StencilJS based web component library.\n3. Technology decision for current and future projects involving new web component library.\n4. Team mentoring through code review and peer programming.",
+      "url": "https://www.linkedin.com/company/icon-plc-2/",
+      "location": "San Diego, California"
     },
     {
-      "company": "Sony Electronics",
+      "name": "Zuora",
+      "position": "Front End Software Engineer",
+      "startDate": "2017-08-31",
+      "endDate": "2019-07-31",
+      "highlights": [],
+      "summary": "Part of the analytics team, a small AGILE group,  responsible for creating various dashboards used by the consumer to more easily digest the numbers associated with their day-to-day businesses.\n\nResponsibilities include:\n 1. Refactoring old/legacy code into current Angular 4+ framework.\n 2. Create custom components for Angular 4+ that are used by the dashboards.\n 3. Suggest/Enforce atomic design principles.\n 4. Aid in the design and creation of UX/UI to improve the users overall experience.",
+      "url": "https://www.linkedin.com/company/zuora/",
+      "location": "San Diego, California"
+    },
+    {
+      "name": "Awarepoint",
+      "position": "Senior UI Designer",
+      "startDate": "2014-02-28",
+      "endDate": "2017-08-31",
+      "highlights": [],
+      "summary": "Assist with design, implementation and maintenance of custom user interface to support hardware asset tracking system.\n\nResponsibilities include:\n1. Updating and re-factoring custom content framework to AngularJS.\n2. Extending functionality to consume new API resources as they become available by the back end team.\n3. Create/convert internal tools to web interface using AngularJS and Twitter Bootstrap.",
+      "url": "https://www.linkedin.com/company/awarepoint/",
+      "location": "San Diego"
+    },
+    {
+      "name": "Sony Electronics",
       "position": "Senior Web Developer",
-      "website": "http://sony.com",
-      "startDate": "2013-07",
-      "endDate": "2014-02",
-      "summary": "",
-      "highlights": [
-        "animation performance using 3D transforms in order to leverage GPU and high sprite counts. ",
-        "cross device touch library for mobile devices. Used Node.js and backbone for prototyping.",
-        "single build, multiple deploy based projects using phone gap and other libraries created in house."
-      ]
+      "startDate": "2013-07-31",
+      "endDate": "2014-02-28",
+      "highlights": [],
+      "summary": "Develop web application for http://playmemoriesonline.com site\n\nPerformed investigations and aided in implementation of:\n 1. animation performance using 3D transforms\n 2. cross device touch library\n 3. single build, multiple deploy based projects.",
+      "url": "https://www.linkedin.com/company/sony-electronics/"
     },
     {
-      "company": "Empowered Careers",
-      "position": "Senior Software Developer",
-      "website": "",
-      "startDate": "2012-07",
-      "endDate": "2013-06",
-      "summary": "Software developer for educational software aimed at Individuals looking to advance and/or retool themselves in today job market. I designed, refactored and updated our existing Customer Portal software used to enroll, capture payment, and manage student accounts during the course of their enrollment.",
-      "highlights": [
-        "Aided in the development of the ESC REST application for data retrieval from a MongoDB instance.",
-        "Technologies used were PHP and javascript with jQuery."
-      ]
+      "name": "Empowered Careers",
+      "position": "Sr Software Developer",
+      "startDate": "2012-07-31",
+      "endDate": "2013-06-30",
+      "highlights": [],
+      "summary": "Software developer for educational software aimed at Individuals looking to advance and/or retool themselves in today job market\n\nDesigned, refactored and updated existing Customer Portal software used to enroll, capture payment, and manage student accounts during the course of their enrollment using PHP and vanilla javascript.\n\nAided in the development of the ESC REST application for data retrieval from a MongoDB instance.",
+      "url": "",
+      "location": "San Diego"
     },
     {
-      "company": "Sony Online Entertainment",
-      "position": "Senior Web Developer",
-      "website": "",
-      "startDate": "2010-12",
-      "endDate": "2012-07",
-      "summary": "Designed, refactored and updated existing Customer Support software used to manage user accounts and in game functionality. Project was designed using Backbone and jQuery and relied heavily on REST API calls for data manipulation provided by back end engineers.",
-      "highlights": [
-        "Maintained and updated content, both html and Javascript, for front facing game sites.",
-        "Provided research and solution to upcoming Marketplace redesign, including technologies to use, modular design, and environment setup while maintaining current php marketplaces"
-      ]
+      "name": "Sony Online Entertainment",
+      "position": "Sr. Web Developer",
+      "startDate": "2010-12-31",
+      "endDate": "2012-07-31",
+      "highlights": [],
+      "summary": "Designed, refactored and updated existing Customer Support software used to manage user accounts and in game functionality. \n\nMaintained and updated content, both html and Javascript, for front facing game sites.\n\nProvided research and solution to upcoming Marketplace redesign, including technologies to use, modular design, and environment setup while maintaining current php marketplaces.",
+      "url": "https://www.linkedin.com/company/sony-online-entertainment/"
+    },
+    {
+      "name": "Internet Matrix",
+      "position": "Senior Software Engineer",
+      "startDate": "2009-09-30",
+      "endDate": "2010-12-31",
+      "highlights": [],
+      "url": ""
+    },
+    {
+      "name": "Yahoo!",
+      "position": "Yahoo! F2E Engineer",
+      "startDate": "2008-07-31",
+      "endDate": "2009-11-30",
+      "highlights": [],
+      "summary": "Member of the Mail (Candygram) Performance Team, overseeing and fixing issues with dynamic mail interface for over 35 different countries.\n\nFound and optimized bottlenecks in code base in order to improve payload delivery performance.\n\nCreated browser independent javascript unit testing environment based on Rhino and Env.js",
+      "url": "https://www.linkedin.com/company/yahoo/"
+    },
+    {
+      "name": "PINT, Inc.",
+      "position": "Programmer",
+      "startDate": "2006-10-31",
+      "endDate": "2008-06-30",
+      "highlights": [],
+      "summary": "Designing and updating existing features for PWP CMS used for client management.\nCustomized shopping carts for online sales and added enhanced directory services for University based sites.",
+      "url": "https://www.linkedin.com/company/pint-inc-/"
+    },
+    {
+      "name": "Joaco Consulting",
+      "position": "Programmer",
+      "startDate": "2005-10-31",
+      "endDate": "2006-10-31",
+      "highlights": [],
+      "summary": "Contract and Consulting work",
+      "url": ""
+    },
+    {
+      "name": "Internet Express",
+      "position": "Programmer",
+      "startDate": "2003-09-30",
+      "endDate": "2005-10-31",
+      "highlights": [],
+      "url": ""
     }
   ],
   "volunteer": [
     {
-      "organization": "Hour of Code",
-      "position": "Volunteer",
-      "website": "https://hourofcode.com/us",
-      "startDate": "2016",
-      "endDate": "present",
-      "summary": "An hour of code for every student.",
-      "highlights": [
-        ""
-      ]
+      "organization": "AYSO",
+      "position": "Head Coach / Referee",
+      "startDate": "2014-08-31",
+      "endDate": "2020-01-31",
+      "summary": "The AYSO volunteer position of coach is intended to develop in players a positive image of \nthemselves, their teammates, coaches, game officials, and opponents, and provide a good role \nmodel for players. Additionally, the coach will develop in his/her players the appropriate soccer \nskills as recommended in the AYSO coaching manuals.",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/41782"
     }
   ],
   "education": [
     {
-      "institution": "San Diego State University",
+      "institution": "San Diego State University-California State University",
       "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "1998",
-      "endDate": "2001",
-      "gpa": "",
+      "studyType": "Bachelor of Science (BS)",
+      "startDate": "1998-12-31",
+      "endDate": "2001-12-31",
+      "score": "",
       "courses": []
     }
   ],
   "awards": [],
+  "certificates": [],
   "publications": [],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript / ES6"
-      ]
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
     },
     {
-      "name": "Frameworks / Libraries",
-      "level": "Master",
-      "keywords": [
-        "AngularJS",
-        "Leaflet"
-      ]
+      "name": "Web Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Awarepoint (Powered by CenTrak)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cascading Style Sheets (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Services",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "User Interface Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Object Oriented Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Grunt",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Front-end",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AngularJS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XHTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MVC",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "User Interface",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Subversion",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Unit Testing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CMS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "require.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML 5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Backbone.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "OOP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MongoDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Design Patterns",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "jQuery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Twitter Bootstrap",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JSON",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ASP.NET MVC",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Objective-C",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Memcached",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Apache",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SOAP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "REST",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Agile Methodologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS3",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "LAMP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AJAX",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Zend Framework 1/2",
+      "level": "",
+      "keywords": []
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Spanish",
-      "fluency": "Second language"
+      "fluency": "Native Speaker"
     }
   ],
   "interests": [],
-  "references": []
+  "references": [
+    {
+      "name": "Thomas Tupper",
+      "reference": "Joaquin is an amazingly quick study and he has the ability to quickly understand and work within complex development environments, and with complex code sets.  He can wade into highly complex code and quickly find defects, as well as extend that code using compatible patterns.  He's an outstanding client side developer, has significant expertise in JavaScript development and patterns,  and he brings a real passion to the table for doing cutting edge browser based application development.  He has quickly become a great asset to our team."
+    },
+    {
+      "name": "Julie Wilker",
+      "reference": "Joaquin showed great enthusiasm in creating software for our customers and was committed to continuous improvement as new needs were found.  Many a late night was spent in collaboration when we needed to solve a customer need."
+    },
+    {
+      "name": "Nicci Tynen",
+      "reference": "I had the pleasure of working with Joaquin at Internet Matrix.  During that time I found Joaquin to be a knowledgeable senior level web developer with an excellent understanding of the entire SDLC as well as software development best practices.  Joaquin cares about the quality of code that he delivers to QA and that helps whatever organization he is a part of deliver high quality products to customers.  I enjoyed working with Joaquin and welcome the opportunity to work with him again!"
+    },
+    {
+      "name": "Cagdas Ucar",
+      "reference": "Joaquin is a guru on PHP and Javascript and the way that he architects his code would make many developers jealous. He truly understands the software engineering principles and the right way to develop applications. From the moment he came on board, he started making a difference. He was quick to understand the system and lead the way to a better architecture. He introduced us to a better MVC framework, YUI, Zend, Cruisecontrol, php unit tests, ant, build and deploy processes, which greatly enhanced our accuracy and speed of development - on top of the big projects he took on. He is a hard working, knowledgeable developer that I hope to work with again."
+    },
+    {
+      "name": "Stephen Woodcock",
+      "reference": "Joaquin is an incredible Programmer and Engineer. He is knowledgeable and very thorough. He’s to the point, but patient, understanding and professional with clients. He’s got all of the characteristics most programmers’ lack. As for his skill set he’s even better."
+    },
+    {
+      "name": "Suneil Patel",
+      "reference": "Joaquin is an incredibly sharp and knowledgable programmer whom I go to many times for advice on implementing code for a solution. His mastery of PHP and programming methodologies is superb proving to be a great asset many a time. I would enjoy working with Joaquin again and he would make an excellent complement to any team."
+    }
+  ],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
 }
